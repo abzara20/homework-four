@@ -253,6 +253,13 @@ nav .links #merge {
   }
   .booking-form .booking-container .flexible .shorter {
     width: 100%;
+    margin-bottom: 20px;
+  }
+  .booking-form .booking-container .row .item {
+    width: 100%;
+  }
+  .booking-form .booking-container .row p {
+    padding: 0 2%;
   }
 }
 footer {
