@@ -1,6 +1,6 @@
 .booking-form{
     margin: 0 auto;
-    width: 1280px;
+    max-width: 1280px;
     height: 890px;
     // background-color: cadetblue;
 
@@ -11,7 +11,7 @@
     
     .booking-container{
         // background-color: aquamarine;
-        width: 818px;
+        max-width: 818px;
         margin: 0 auto;
         display: flex;
         flex-direction: column;

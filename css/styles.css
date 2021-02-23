@@ -185,7 +185,7 @@ nav .links #merge {
 }
 .booking-form {
   margin: 0 auto;
-  width: 1280px;
+  max-width: 1280px;
   height: 890px;
 }
 .booking-form .title {
@@ -193,7 +193,7 @@ nav .links #merge {
   font-size: 60px;
 }
 .booking-form .booking-container {
-  width: 818px;
+  max-width: 818px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
