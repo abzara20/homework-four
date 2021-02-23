@@ -186,7 +186,7 @@ nav .links #merge {
 .booking-form {
   margin: 0 auto;
   max-width: 1280px;
-  height: 890px;
+  min-height: 890px;
 }
 .booking-form .title {
   font-family: Proxima;
@@ -201,7 +201,6 @@ nav .links #merge {
 }
 .booking-form .booking-container .row {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   margin-bottom: 20px;
   font-family: Gill;
@@ -242,6 +241,20 @@ nav .links #merge {
   color: #fff;
 }
 
+@media only screen and (max-width: 1060px) {
+  .booking-form .booking-container {
+    width: 600px;
+  }
+  .booking-form .booking-container .flexible {
+    flex-direction: column;
+  }
+  .booking-form .booking-container .flexible .longer {
+    width: 100%;
+  }
+  .booking-form .booking-container .flexible .shorter {
+    width: 100%;
+  }
+}
 footer {
   max-width: 1280px;
   height: 100px;
