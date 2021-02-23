@@ -81,30 +81,45 @@ nav {
 nav .logo {
   width: 92px;
   height: 42px;
-  background-image: url(../images/logo/logo-white.png);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 nav .links {
-  width: 500px;
+  width: 75%;
   height: 42px;
   align-self: center;
   display: flex;
 }
 nav .links a {
+  width: 25%;
+  text-align: center;
   font-family: Gill;
   font-size: 15px;
   text-decoration: none;
   color: #fff;
   margin: auto;
-  padding-right: 5%;
-  border-right: 1px solid #79ADDC;
+  padding: 0 auto;
+  border: 1px solid #79ADDC;
+  border-top: none;
+  border-bottom: none;
 }
 nav .links #solo {
   padding: 0;
   border: none;
 }
+nav .links #merge {
+  border-right: hidden;
+}
 
+@media only screen and (max-width: 1060px) {
+  nav {
+    justify-content: center;
+  }
+  nav .logo {
+    visibility: hidden;
+  }
+  nav .links {
+    margin-left: -92px;
+  }
+}
 .promo-tours {
   max-width: 1280px;
   min-height: 304px;
